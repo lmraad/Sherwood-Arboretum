@@ -1,0 +1,45 @@
+<form method="POST" action="/processSearch" id="searchForm">
+
+    <input id="searchBar" list="list" name="species" placeholder="Search species...">
+
+    <datalist id="list">
+        {{#each allSpecies}}
+            <option value="{{this.SCIENTIFIC_NAME}}"></option>
+        {{/each}}
+
+        {{#each commonNames}}
+            <option value="{{this.COMMON_NAME}}"></option>
+        {{/each}}
+    </datalist>
+    
+    <button type="Submit" id="searchIcon">
+        <img src="images/search_icon1.png" width="80" height="80">
+    </button>
+
+</form>
+
+{{#if error}}
+    <p id="error">{{error}}</p>
+{{/if}}
+
+<table id="searchResults">
+    {{#each options}}
+        <tr>
+        <td>
+            <div id="scientificName"><b>{{this.SCIENTIFIC_NAME}}</b></div>
+            {{this.NAMES}}<br>
+            {{this.LOCATIONS}}
+        </td>
+        <th>
+            <form method="POST" action="/speciesInfo">
+                <input name="speciesInfoRequest" value="{{this.SCIENTIFIC_NAME}}" hidden>
+                <button type="Submit" class="button">Info</button>
+            </form>
+            <form method="POST" action="/speciesComparing">
+                <input name="speciesCompareRequest" value="{{this.SCIENTIFIC_NAME}}" hidden>
+                <button type="Submit" class="button">Compare</button>
+            </form>
+        </th>
+        </tr>
+    {{/each}}
+</table>

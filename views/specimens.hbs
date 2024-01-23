@@ -1,0 +1,46 @@
+<h1 id="specimenSpeciesTitle">
+    Specimens Under Species:<br>
+    <p id="titleSpecies">
+        {{{specimenSpecies}}}
+    </p>
+</h1>
+
+{{#each specimenInfo}}
+<div id="specimenBox">
+    <div id="firstRow">
+        <div id="treeID" class="box">{{this.TREE_ID}}</div>
+        <div id="latitude" class="box">X: {{this.LATITUDE}}</div>
+        <div id="longitude" class="box">Y: {{this.LONGITUDE}}</div>
+    </div>
+    <div id="secondRow" class="box">
+        <div>Year established:</div>
+        <div id="yearEstablished">{{this.YEAR_ESTABLISHED}}</div>
+    </div>
+    <div id="thirdRow">
+        <div class="box measurement">
+            Height:
+            <p class="number">
+                {{this.HEIGHT}}m
+            </p>
+        </div>
+        <div class="box measurement">
+            Crown Width:
+            <p class="number" id="widthNumber">
+                {{this.CROWN_WIDTH}}m
+            </p>
+        </div>
+        <div class="box measurement">
+            DBH:
+            <p class="number">
+                {{this.DBH}}mm
+            </p>
+        </div>
+    </div>
+</div>
+{{/each}}
+
+<div class="titleBox">TREE TERMS GUIDE</div>
+
+<div id="treeTermsGuide">
+    <img src="images/tree_guide1.png" width="600" height="520">
+</div>

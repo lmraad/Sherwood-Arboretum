@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Sherwood Arboretum</title>
+        <link href="home.css" rel="stylesheet">
+
+        <style>
+            #headerBox {
+                width: 100%;
+                height: 170px;
+                margin: 0px;
+                background-color: #62b578;
+                color: white;
+                font-family: 'Bahnschrift SemiBold';
+                padding-left: 40px;
+                font-size: 75px;
+                display: flex;
+                align-items: center;
+            }
+
+            table, tr, td {
+                border: solid 1px black;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <div id="headerBox">
+            Sherwood Arboretum
+
+            <form method="POST" action="/">
+                <button type="Submit" id="homeIcon">
+                    <img src="images/home_icon1.png" width="70" height="70">
+                </button>
+            </form>
+        </div>
+
+        {{{body}}}
+
+    </body>
+
+</html>

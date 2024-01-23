@@ -1,0 +1,98 @@
+<style>
+
+    table, tr, td {
+        border: none;
+    }
+
+    table {
+        width: 890px;
+        margin-bottom: 100px;
+        font-size: 50px;
+        font-family: 'Bahnschrift';
+        line-height: 1.7;
+        border-collapse: collapse;
+    }
+
+    tbody th {
+        text-align: left;
+        color: #4a8a5b;
+        display: flex;
+        align-items: flex-start;
+        font-family: 'Bahnschrift Light';
+    }
+
+    tbody td {
+        text-align: center;
+        border: solid 4px lightgray;
+    }
+
+</style>
+
+<h1 id="comparisonTitle">
+    {{{species1}}}<br>
+    and<br>
+    {{{species2}}}
+</h1>
+
+<div id="comparisonInfo">
+    <div class="infoTitle">
+        Tallest:
+    </div>
+    <div class="infoBox">
+        <div class="bestSpecies">{{{tallest}}}</div>
+        by {{{heightDifference}}} metres
+    </div>
+
+    <div class="infoTitle">
+        Largest Crown Width:
+    </div>
+    <div class="infoBox">
+        <div class="bestSpecies">{{{widest}}}</div>
+        by {{{widthDifference}}} metres
+    </div>
+
+    <div class="infoTitle">
+        Largest DBH:
+    </div>
+    <div class="infoBox">
+        <div class="bestSpecies">{{{largestDBH}}}</div>
+        by {{{DBHDifference}}} mm
+    </div>
+
+    <div class="infoTitle">
+        Most in the Arboretum:
+    </div>
+    <div class="infoBox">
+        <div class="bestSpecies">{{{mostCount}}}</div>
+        by {{{countDifference}}} trees
+    </div>
+
+    <div class="infoTitle">
+        Similarities:
+    </div>
+    <div class="infoBox" id="similaritiesBox">
+        <div>{{{sameFamily}}}</div>
+        <div>{{{sameAus}}}</div>
+        <div>{{{sameHabitat}}}</div>
+    </div>
+
+    <div class="infoTitle">
+        Vulnerabilities:
+    </div>
+    <table id="vulnerabilities">
+        <tr>
+            <th>{{{species1}}}</th>
+            <td>{{{vulnerability1}}}</td>
+        </tr>
+        <tr>
+            <th>{{{species2}}}</th>
+            <td>{{{vulnerability2}}}</td>
+        </tr>
+    </table>
+</div>
+
+<div class="titleBox">TREE TERMS GUIDE</div>
+
+<div id="treeTermsGuide">
+    <img src="images/tree_guide1.png" width="600" height="520">
+</div>

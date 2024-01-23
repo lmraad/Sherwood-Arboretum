@@ -1,0 +1,155 @@
+<style>
+
+    table, tr, td {
+        border: none;
+    }
+
+    table {
+        width: 890px;
+        margin-left: 60px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 50px;
+        font-family: 'Bahnschrift';
+        line-height: 1.7;
+        border-collapse: collapse;
+    }
+
+    tbody th {
+        text-align: left;
+        color: #4a8a5b;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    tbody td {
+        text-align: right;
+    }
+
+    #box {
+        background-color: bisque;
+        height: 3000px;
+    }
+
+    #generalInfo th {
+        width: 390px;
+    }
+
+</style>
+
+<h1 id="speciesTitle">
+    {{#each generalInfo}}
+        {{this.SCIENTIFIC_NAME}}
+    {{/each}}
+</h1>
+
+<div class="titleBox">GENERAL INFORMATION</div>
+
+<table id="generalInfo">
+    {{#each generalInfo}}
+        <tr>
+            <th>Common Name:</th>
+            <td>{{this.NAMES}}</td>
+        </tr>
+        <tr>
+            <th>Family:</th>
+            <td>{{this.FAMILY}}</td>
+        </tr>
+        <tr>
+            <th>Australian:</th>
+            <td>{{this.AUSTRALIAN}}</td>
+        </tr>
+    {{/each}}
+    {{#each count}}
+        <tr>
+            <th>Count:</th>
+            <td>{{this.COUNT}} trees</td>
+        </tr>
+    {{/each}}
+</table>
+
+<table id="measurements">
+    {{#each measurements}}
+        <tr>
+            <th></th>
+            <td>MIN</td>
+            <td>AVERAGE</td>
+            <td>MAX</td>
+        </tr>
+        <tr>
+            <th>Height:</th>
+            <td>{{this.MINH}}m</td>
+            <td>{{this.AVGH}}m</td>
+            <td>{{this.MAXH}}m</td>
+        </tr>
+        <tr>
+            <th>Crown Width:</th>
+            <td>{{this.MINC}}m</td>
+            <td>{{this.AVGC}}m</td>
+            <td>{{this.MAXC}}m</td>
+        </tr>
+        <tr>
+            <th>DBH:</th>
+            <td>{{this.MIND}}mm</td>
+            <td>{{this.AVGD}}mm</td>
+            <td>{{this.MAXD}}mm</td>
+        </tr>
+    {{/each}}
+</table>
+
+<button id="scrollLink" onClick="document.getElementById('treeTermsGuide').scrollIntoView();">
+    Don't know what these terms mean?
+</button>
+
+<div class="titleBox">GEOGRAPHICAL INFORMATION</div>
+
+<table>
+    {{#each distributions}}
+        <tr>
+            <th>Distribution:</th>
+            <td>{{this.LOCATIONS}}</td>
+        </tr>
+    {{/each}}
+    {{#each habitat}}
+        <tr>
+            <th>Habitat:</th>
+            <td>{{this.HABITAT}}</td>
+        </tr>
+    {{/each}}
+</table>
+
+<div class="titleBox">VULNERABILITY</div>
+
+<table>
+    {{#each vulnerabilities}}
+        <tr>
+            <th>Conservation Act 1992:</th>
+            <td>{{this.CONSERVATION_ACT_1992}}</td>
+        </tr>
+        <tr>
+            <th>EPBC Act 1999:</th>
+            <td>{{this.EPBC_ACT_1999}}</td>
+        </tr>
+    {{/each}}
+</table>
+
+<div class="titleBox">SPECIES DESCRIPTION</div>
+
+<p id="speciesProfile">
+    {{#each description}}
+        {{this.SPECIES_PROFILE}}
+    {{/each}}
+</p>
+
+{{#each generalInfo}}
+<form method="POST" action="/specimens">
+    <input name="specimensRequest" value="{{this.SCIENTIFIC_NAME}}" hidden>
+    <button type="Submit" id="specimensButton">> Specimens Of  This Species <</button>
+</form>
+{{/each}}
+
+<div class="titleBox">TREE TERMS GUIDE</div>
+
+<div id="treeTermsGuide">
+    <img src="images/tree_guide1.png" width="600" height="520">
+</div>

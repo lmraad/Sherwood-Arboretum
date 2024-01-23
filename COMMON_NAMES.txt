@@ -1,0 +1,287 @@
+SCIENTIFIC_NAME	COMMON_NAME
+Acacia concurrens	Black wattle
+Acacia concurrens	Curracabah
+Acacia disparrima subsp. disparrima	Hickory Wattle
+Acacia fimbriata	Brisbane golden wattle
+Acacia fimbriata	Fringed wattle
+Acacia harpophylla	Brigalow
+Acacia leiocalyx	Blackwattle
+Acacia leiocalyx	Early flowering black wattle
+Acacia maidenii	Maiden's Wattle
+Acacia podalyriifolia	Queensland silver wattle
+Acmena ingens	Red apple
+Acronychia oblongifolia	White aspen
+Acronychia pauciflora	Soft acronychia
+Acronychia wilcoxiana	Silver Aspen
+Aegiceras corniculatum	Black mangrove
+Aegiceras corniculatum	River mangrove
+Agathis atropurpurea	Black kauri
+Agathis atropurpurea	Blue kauri
+Agathis microstachya	Bull Kauri
+Agathis robusta	Queensland kauri pine
+Akania bidwillii	Turnipwood
+Albizia lebbeck	Lebbeck
+Alectryon connatus	Grey birdseye
+Alectryon coriaceus	Beach bird's eye
+Alectryon coriaceus	beach alectryon
+Alectryon subcinereus	Wild Quince
+Alectryon tomentosus	Woolly Rambutan
+Allocasuarina torulosa	Forest Oak
+Alphitonia excelsa	Red Ash
+Alstonia constricta	Quinine bush
+Alstonia scholaris	Milky Pine
+Angophora floribunda	Rough-barked apple
+Angophora subvelutina	Broad-leaved Apple
+Anthocarapa nitidula	Incense cedar
+Aphananthe philippinensis	Native elm
+Araucaria bidwillii	Bunya Pine
+Araucaria cunninghamii var. cunninghamii	Hoop Pine
+Argyrodendron actinophyllum subsp. actinophyllum	Black booyong
+Argyrodendron actinophyllum subsp. diversifolium	Black booyong / Mackay tulip oak
+Argyrodendron perlatum	Red tulip oak
+Argyrodendron polyandrum	Brown tulip oak
+Argyrodendron trifoliolatum	White booyong
+Atalaya hemiglauca	Whitewood
+Atalaya salicifolia	Brush whitewood
+Atractocarpus fitzalanii	Native gardenia
+Auranticarpa rhombifolia	Diamond leaf pittosporum
+Avicennia marina	Grey mangrove or white mangrove
+Backhousia citriodora	Lemon-Scented Myrtle
+Backhousia myrtifolia	Grey Myrtle
+Banksia integrifolia subsp. integrifolia	Coast banksia
+Barklya syringifolia	Crown of gold
+Barringtonia acutangula	Freshwater mangrove
+Blepharocarya involucrigera	North Queensland bollygum
+Brachychiton acerifolius	Illawarra flame tree
+Brachychiton australis	Broad-leaved Bottle Tree
+Brachychiton bidwillii	Little kurrajong
+Brachychiton compactus	Whitsunday bottle tree
+Brachychiton discolor	Lacebark tree
+Brachychiton populneus subsp. populneus	Kurrajong
+Brachychiton populneus subsp. trilobus	Kurrajong
+Brachychiton rupestris	Narrow-leaved bottle tree
+Brachychiton sp. Ormeau	Ormeau bottle tree
+Breynia oblongifolia	Coffee bush
+Buckinghamia celsissima	Ivory curl tree
+Cadellia pentastylis	Ooline
+Callitris columellaris	White cypress pine
+Callitris rhomboidea	Oyster Bay pine
+Cananga odorata	Ylang-ylang
+Capparis arborea	Caper bush
+Cassia brewsteri	Brewster's cassia
+Cassia brewsteri	Leichhardt bean
+Castanospermum australe	Black Bean
+Casuarina cunninghamiana	River she-oak
+Casuarina glauca	Swamp Oak
+Chionanthus ramiflora	Northern native olive
+Citrus X sinensis	Orange
+Commersonia bartramia	Brown Kurrajong
+Corymbia citriodora subsp. citriodora	Spotted gum
+Corymbia citriodora subsp. variegata	Spotted gum
+Corymbia eximia	Yellow bloodwood
+Corymbia henryi	Large-leaved spotted gum
+Corymbia intermedia	Pink bloodwood
+Corymbia leichhardtii	Leichhardt's rustyjacket
+Corymbia tessellaris	Moreton Bay ash
+Corymbia torelliana	Cadaghi
+Corymbia torelliana	cadaga
+Corynocarpus rupestris subsp. arborescens	Glenugie karaka
+Cryptocarya hypospodia	Glossy laurel
+Cryptocarya laevigata	Glossy laurel or red-fruited laurel
+Cryptocarya mackinnoniana	Mackinnon's walnut
+Cryptocarya mackinnoniana	Rusty laurel
+Cryptocarya obovata	Pepperberry tree
+Cryptocarya obovata	white walnut
+Cryptocarya triplinervis	Three veined laurel
+Cupaniopsis anacardioides	Tuckeroo
+Cupaniopsis parvifolia	Small-leaved tuckeroo
+Cupaniopsis tomentella	Boonah tuckeroo
+Davidsonia jerseyana	Mullumbimby Plum
+Davidsonia johnsonii	Davidson's plum
+Davidsonia pruriens	Davidson's plum
+Delonix regia	Poinciana
+Denhamia disperma	Orange bush
+Denhamia disperma	orange boxwood
+Diploglottis australis	Native tamarind
+Diploglottis campbellii	Small-leaved tamarind
+Dysoxylum fraserianum	Rosewood
+Dysoxylum fraserianum	Australian rose mahogany
+Dysoxylum rufum	Hairy Rosewood
+Elaeocarpus angustifolius	Blue quandong
+Elaeocarpus eumundi	Eumundi quandong
+Elaeocarpus obovatus	Hard quandong
+Elaeocarpus reticulatus	Blueberry ash
+Elaeodendron australe	Red olive plum
+Eucalyptus argophloia	Chinchilla white gum
+Eucalyptus bancroftii	Bancroft's red gum
+Eucalyptus camaldulensis	River red gum
+Eucalyptus carnea	White mahogany
+Eucalyptus cloeziana	Gympie messmate
+Eucalyptus crebra	Narrow-leaved ironbark
+Eucalyptus curtisii	Plunkett mallee
+Eucalyptus deanei	Mountain blue gum
+Eucalyptus longirostrata	Grey gum
+Eucalyptus major	Small-fruited grey gum
+Eucalyptus melanophloia	Silver leaf iron bark
+Eucalyptus melliodora	Yellow box
+Eucalyptus microcorys	Tallowwood
+Eucalyptus moluccana	Gum-topped box
+Eucalyptus pellita	Large-fruited red mahogany
+Eucalyptus propinqua	Small-fruited grey gum
+Eucalyptus raveretiana	Black ironbox
+Eucalyptus resinifera	Red stringybark
+Eucalyptus robusta	Swamp mahogany
+Eucalyptus robusta	swamp messmate
+Eucalyptus robusta x tereticornis	Forest red gum
+Eucalyptus saligna subsp. saligna	Sydney blue gum
+Eucalyptus seeana	Narrow-leaved red gum
+Eucalyptus siderophloia	Northern grey ironbark
+Eucalyptus sp.	Eucalyptus sp.
+Eucalyptus tereticornis subsp. tereticornis	Forest red gum
+Eucalyptus thozetiana	None recorded
+Euroschinus falcatus var. falcatus	Ribbonwood
+Excoecaria agallocha	Milky mangrove
+Falcataria toona	Mackay cedar
+Ficus benjamina var. benjamina	Weeping fig
+Ficus congesta	Red-leaf fig
+Ficus coronata	Sandpaper fig
+Ficus macrophylla	Moreton Bay fig
+Ficus macrophylla forma macrophylla	Moreton Bay fig
+Ficus microcarpa	Small-fruited fig
+Ficus microcarpa var. hilli	Small-fruited fig
+Ficus microcarpa var. microcarpa	Small-fruited fig
+Ficus nodosa	Cape Fig; Fig
+Ficus nodosa	Cape; Fig
+Ficus nodosa	Rocky River; Rocky River Fig
+Ficus obliqua	Small-leaved fig
+Ficus platypoda	Desert fig
+Ficus racemosa	Cluster fig
+Ficus racemosa var. racemosa	Cluster fig
+Ficus rubiginosa	Port Jackson fig
+Ficus rubiginosa	rusty fig
+Ficus rubiginosa forma glabrescens	Port Jackson fig
+Ficus rubiginosa forma glabrescens	rusty fig
+Ficus septica	none recorded
+Ficus superba var. henneana	Deciduous fig
+Ficus virens	White Fig
+Ficus virens var. sublanceolata	White Fig
+Ficus virens var. virens	White Fig
+Ficus watkinsiana	Strangler fig
+Flindersia australis	Crows Ash
+Flindersia bennettii	Bennett's ash
+Flindersia brayleyana	Queensland maple
+Flindersia collina	Leopard ash
+Flindersia schottiana	Bumpy ash
+Flindersia schottiana	cudgerie
+Flindersia xanthoxyla	Long jack or Yellowwood
+Fraxinus angustifolia subsp. syriaca	Syrian Ash-tree
+Geijera parviflora	Wilga
+Glochidion ferdinandi	Cheese tree
+Glochidion sp.	Cheese tree
+Glochidion sumatranum	Cheese tree
+Gmelina fasciculiflora	Northern white beech
+Gmelina leichhardtii	White Beech
+Gossia myrsinocarpa/Gossia acminoides	none recorded
+Grevillea baileyana	White oak
+Grevillea hilliana	White yiel yiel
+Grevillea robusta	Silky oak
+Guioa semiglauca	Guioa or wild quince
+Gyrocarpus americanus	Coolamon tree
+Harpullia hillii	Blunt-leaved tulip or oblong-leaved tulip
+Harpullia pendula	Tulipwood
+Hibiscus heterophyllus	Native rosella
+Hymenosporum flavum	Native frangipani
+Jacaranda mimosifolia	Jacaranda
+Jagera pseudorhus var. pseudorhus	Foambark
+Lagunaria patersonii	Norfolk Island hibiscus
+Lepiderema sp. (Impulse Creek)	none recorded
+Leptospermum sp.	Tea tree
+Libidibia ferrea	Leopard tree
+Livistona australis	Cabbage-tree palm
+Lophostemon confertus	Brush Box
+Lophostemon suaveolens	Swamp Box
+Lysiphyllum carronii	Red bauhinia
+Lysiphyllum hookeri	Pegunny
+Macadamia integrifolia	Macadamia
+Macadamia integrifolia	Queensland Nut
+Macadamia ternifolia	Gympie nut
+Macaranga tanarius	Bullocks heart
+Mallotus claoxyloides	Green kamala
+Mallotus claoxyloides	odour bush
+Mallotus claoxyloides	smell of the bush
+Mallotus philippensis	Red kamala
+Mangifera indica	Mango
+Maytenus bilocularis	Orange bark
+Melaleuca bracteata	Black tea tree
+Melaleuca decora	White feather honeymyrtle
+Melaleuca decora/ melaleuca linariifolia	White feather honeymyrtle
+Melaleuca leucadendra	Weeping paperbark
+Melaleuca linariifolia	Snow in Summer
+Melaleuca quinquenervia	Broad-leaved paperbark
+Melaleuca salicina	Willow bottlebrush
+Melaleuca salicina	White bottlebrush
+Melaleuca saligna	Willow bottlebrush
+Melaleuca saligna	White bottlebrush
+Melaleuca styphelioides	Prickly paperbark
+Melaleuca viminalis subsp. viminalis	Weeping bottlebrush
+Melaleuca viridiflora	Broad-leaved paperbark
+Melia azedarach	White cedar
+Melicope elleryana	Pink euodia
+Melicope elleryana	Pink doughwood
+Melicope rubra	Little evodia
+Millettia pinnata	Pongamia
+Nauclea orientalis	Leichardt Tree
+Neisosperma kilneri	none recorded
+Ochrosia elliptica	Bloodhorn
+Olea paniculata	Native olive
+Owenia venosa	Crows apple
+Pandanus brookei	Swamp Pandan
+Pararchidendron pruinosum	Snow wood
+Pentaceras australe	Penta Ash
+Pentaceras australe	Black Teak
+Petalostigma triloculare	Bitter bark
+Pinus taeda	Loblolly pine
+Pittosporum angustifolium	Weeping pittosporum
+Pittosporum angustifolium	Butterbush
+Pittosporum angustifolium	Berrigan
+Pittosporum multiflorum	Orange thorn
+Planchonella australis	Black apple
+Pleiogynium timoriense	Burdekin plum
+Podocarpus elatus	Brown Pine
+Polyscias elegans	Celery wood
+Pouteria australis	Black apple
+Pterospermum acerifolium	Bayur Tree
+Rhodamnia argentea	Malletwood
+Rhodamnia argentea	white myrtle
+Rhodomyrtus psidioides	Native guava
+Rhodosphaera rhodanthema	Deep yellowwood
+Rhus taitensis	Sumac
+Spathodea campanulata subsp. nilotica	African tuliptree
+Stenocarpus sinuatus	Firewheel tree
+Sterculia quadrifida	Peanut tree
+Streblus brunonianus	Whalebone tree
+Syncarpia glomulifera subsp. glomulifera	Turpentine tree
+Syncarpia hillii	Satinay
+Syzygium australe	Brush cherry
+Syzygium bungadinnia	Satinash
+Syzygium francisii	Giant water gum
+Syzygium hemilamprum	Broad-leaved lilly pilly
+Syzygium luehmannii	Small-leaved lilly pilly
+Syzygium moorei	Coolamon
+Syzygium oleosum	Blue lilly pilly
+Syzygium smithii	Lilly pilly
+Syzygium tierneyanum	River cherry
+Syzygium tierneyanum	Bamaga satinash
+Tabebuia sp.	Tabebuia sp.
+Terminalia arenicola	Tropical Almond
+Terminalia sp.	Terminalia
+Tipuana tipu	Rosewood
+Tipuana tipu	tipuana tree
+Toechima tenax	Brush teak
+Toona ciliata	Red Cedar
+Vitex lignum-vitae	Yellow hollywood
+Vitex melicopea	Northern vitex
+Waterhousea floribunda	Weeping Lillypilly
+Xanthorrhoea glauca	Grass tree
+Xanthostemon chrysanthus	Golden Penda
+Xanthostemon oppositifolius	Southern penda

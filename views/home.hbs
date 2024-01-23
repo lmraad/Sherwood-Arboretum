@@ -1,0 +1,94 @@
+<form method="POST" action="/processSearch" id="searchForm">
+
+    <input id="searchBar" list="list" name="species" placeholder="Search species...">
+
+    <datalist id="list">
+        {{#each allSpecies}}
+            <option value="{{this.SCIENTIFIC_NAME}}"></option>
+        {{/each}}
+
+        {{#each commonNames}}
+            <option value="{{this.COMMON_NAME}}"></option>
+        {{/each}}
+    </datalist>
+
+    <button type="Submit" id="searchIcon">
+        <img src="images/search_icon1.png" width="80" height="80">
+    </button>
+    
+</form>
+
+<div id="distributionTitle">Distribution of 20 Most Common Species:</div>
+
+<div id="distributionBox">
+    <div id="pieChart"></div>
+</div>
+
+<div id="speciesListTitle">Find Individual Specimens By Species:</div>
+<table id="speciesList">
+    {{#each speciesList}}
+        <tr>
+            <td>
+                <form method="POST" action="/specimens">
+                    <input name="specimensRequest" value="{{this.SCIENTIFIC_NAME}}" hidden>
+                    <button type="Submit" class="speciesSelection">
+                        •  {{this.SCIENTIFIC_NAME}} - {{this.PERCENTAGE}}%
+                    </button>
+                </form>
+            </td>
+        </tr>
+    {{/each}}
+</table>
+
+<style>
+
+    table, tr, td {
+        border: none;
+    }
+
+    table {
+        width: 890px;
+        margin-left: 60px;
+        margin-top: 30px;
+        margin-bottom: 70px;
+        font-size: 35px;
+        font-family: 'Bahnschrift';
+        line-height: 1.7;
+        border-collapse: collapse;
+    }
+
+</style>
+
+<script src="https://cdn.plot.ly/plotly-2.12.1.min.js"></script>
+<script>
+    document.getElementById("pieChart")
+  
+    let data = [{
+        values: [{{{dataValues}}}],
+        labels: {{{dataLabels}}},
+        type: 'pie',
+        //textinfo: "none"
+    }]
+        
+    let layout = {
+        autosize: false,
+        height: 1400,
+        width: 1000,
+
+        font: {
+            size: 34
+        },
+
+        showlegend: true,
+        legend: {
+            x: 0,
+            y: -20,
+            font: {
+                size: 35
+            }
+        }
+    }
+    
+    Plotly.newPlot('pieChart', data, layout)
+
+</script>

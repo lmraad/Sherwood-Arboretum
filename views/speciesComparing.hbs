@@ -1,0 +1,41 @@
+<form method="POST" action="/speciesComparing" id="searchForm">
+
+    <input id="searchBar" list="list" name="species" placeholder="Search species...">
+
+    <datalist id="list">
+        {{#each allSpecies}}
+            <option value="{{this.SCIENTIFIC_NAME}}"></option>
+        {{/each}}
+
+        {{#each commonNames}}
+            <option value="{{this.COMMON_NAME}}"></option>
+        {{/each}}
+    </datalist>
+    
+    <button type="Submit" id="searchIcon">
+        <img src="images/search_icon1.png" width="80" height="80">
+    </button>
+
+</form>
+
+<div id="comparingWithText">
+    Comparing with: <br>
+    {{{species1}}}
+</div>
+
+<table id="searchResults">
+    {{#each options}}
+        <tr>
+        <td>
+            <form method="POST" action="/speciesComparison">
+                <input name="speciesCompareRequest" value="{{this.SCIENTIFIC_NAME}}" hidden>
+                <button type="Submit" id="compareSpeciesButton">
+                    <div id="scientificName"><b>{{this.SCIENTIFIC_NAME}}</b></div>
+                    {{this.NAMES}}<br>
+                    {{this.LOCATIONS}}
+                </button>
+            </form>
+        </td>
+        </tr>
+    {{/each}}
+</table>

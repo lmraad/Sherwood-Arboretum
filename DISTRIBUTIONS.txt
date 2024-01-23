@@ -1,0 +1,429 @@
+SCIENTIFIC_NAME	DISTRIBUTION
+Acacia concurrens	N NSW to SEQ
+Acacia disparrima subsp. disparrima	QLD - N NSW
+Acacia fimbriata	SEQ to NSW
+Acacia harpophylla	C QLD - C NSW
+Acacia leiocalyx	NSW to QLD
+Acacia maidenii	SE QLD - NSW
+Acacia maidenii	VIC
+Acacia podalyriifolia	Central E QLD to NE NSW
+Acmena ingens	SE QLD – NE NSW
+Acronychia oblongifolia	E Australia
+Acronychia oblongifolia	QLD to VIC
+Acronychia pauciflora	NE NSW to QLD
+Acronychia wilcoxiana	SEQ - SE NSW
+Aegiceras corniculatum	India
+Aegiceras corniculatum	SE Asia to S China
+Aegiceras corniculatum	 New Guinea and Australia
+Agathis atropurpurea	NE QLD
+Agathis microstachya	NE QLD
+Agathis robusta	NE and SE QLD
+Akania bidwillii	QLD
+Akania bidwillii	NSW
+Albizia lebbeck	N Australia SE Asia
+Albizia lebbeck	E Africa
+Alectryon connatus	E QLD
+Alectryon connatus	New Guinea
+Alectryon coriaceus	NSW to QLD
+Alectryon subcinereus	SE QLD - E VIC
+Alectryon tomentosus	NE QLD - E NSW
+Allocasuarina torulosa	NE QLD - S NSW
+Alphitonia excelsa	N WA
+Alphitonia excelsa	NT
+Alphitonia excelsa	QLD
+Alphitonia excelsa	E NSW
+Alstonia constricta	QLD
+Alstonia constricta	N NSW
+Alstonia scholaris	E QLD
+Alstonia scholaris	NG
+Alstonia scholaris	MAL
+Alstonia scholaris	AS
+Angophora floribunda	E Australia
+Angophora subvelutina	SE QLD - NSW
+Anthocarapa nitidula	CYP to NE NSW Malesia
+Anthocarapa nitidula	the Solomon Islands
+Anthocarapa nitidula	Vanuatu
+Anthocarapa nitidula	New Caledonia
+Aphananthe philippinensis	E Australia
+Aphananthe philippinensis	Malesia
+Aphananthe philippinensis	Solomon Islands
+Araucaria bidwillii	NE QLD
+Araucaria bidwillii	SE QLD
+Araucaria cunninghamii var. cunninghamii	Central E NSW
+Araucaria cunninghamii var. cunninghamii	E QLD
+Araucaria cunninghamii var. cunninghamii	New Guinea
+Argyrodendron actinophyllum subsp. actinophyllum	SEQ - NSW
+Argyrodendron actinophyllum subsp. diversifolium	NE QLD
+Argyrodendron actinophyllum subsp. diversifolium	CE QLD
+Argyrodendron perlatum	NE QLD
+Argyrodendron polyandrum	NE QLD
+Argyrodendron trifoliolatum	NE QLD to NE NSW
+Atalaya hemiglauca	QLD
+Atalaya hemiglauca	NSW
+Atalaya hemiglauca	NT
+Atalaya hemiglauca	SA
+Atalaya hemiglauca	WA
+Atalaya salicifolia	WA
+Atalaya salicifolia	NT
+Atalaya salicifolia	CYP
+Atalaya salicifolia	NEQ
+Atalaya salicifolia	N NSW
+Atractocarpus fitzalanii	NEQ to central QLD
+Auranticarpa rhombifolia	E Australia
+Avicennia marina	Coasts of East and South Africa
+Avicennia marina	southern Asia
+Avicennia marina	Australia
+Avicennia marina	Oceania
+Backhousia citriodora	E QLD
+Backhousia myrtifolia	SE QLD – SE NSW
+Banksia integrifolia subsp. integrifolia	QLD to VIC
+Barklya syringifolia	SE QLD
+Barklya syringifolia	Central QLD
+Barringtonia acutangula	Southern Asia
+Barringtonia acutangula	N Australasia
+Blepharocarya involucrigera	NE QLD
+Brachychiton acerifolius	NE QLD to SE NSW
+Brachychiton australis	E QLD
+Brachychiton bidwillii	E QLD to N NSW
+Brachychiton compactus	NE QLD
+Brachychiton discolor	CE QLD - NE NSW
+Brachychiton populneus subsp. populneus	Central E QLD to Central E NSW
+Brachychiton populneus subsp. trilobus	Central E QLD to Central E NSW
+Brachychiton rupestris	Central QLD
+Brachychiton rupestris	N NSW
+Brachychiton sp. Ormeau	SEQ
+Breynia oblongifolia	Australia
+Breynia oblongifolia	New Guinea
+Buckinghamia celsissima	NE QLD
+Cadellia pentastylis	NW NSW
+Cadellia pentastylis	Central
+Cadellia pentastylis	Southern QLD
+Callitris columellaris	E QLD to NE NSW
+Callitris rhomboidea	SA
+Callitris rhomboidea	QLD
+Callitris rhomboidea	NSW
+Callitris rhomboidea	VIC
+Callitris rhomboidea	TAS
+Cananga odorata	NE QLD Malesia
+Cananga odorata	SE Asia
+Capparis arborea	E Australia
+Cassia brewsteri	Central QLD to N NSW
+Castanospermum australe	NE QLD
+Castanospermum australe	SE QLD - NE NSW
+Casuarina cunninghamiana	NT
+Casuarina cunninghamiana	N QLD Australia to E NSW
+Casuarina glauca	C QLD - S NSW
+Chionanthus ramiflora	NE QLD
+Chionanthus ramiflora	Central QLD
+Chionanthus ramiflora	New Guinea
+Citrus X sinensis	China
+Commersonia bartramia	E QLD
+Commersonia bartramia	NE NSW
+Commersonia bartramia	 NG
+Corymbia citriodora subsp. citriodora	SE QLD
+Corymbia citriodora subsp. variegata	SE QLD
+Corymbia citriodora subsp. variegata/camaldulensis	SE QLD
+Corymbia eximia	NE QLD
+Corymbia eximia	Central QLD S to Gympie
+Corymbia henryi	SE QLD
+Corymbia intermedia	E QLD
+Corymbia intermedia	Central E NSW
+Corymbia leichhardtii	North QLD to Central QLD
+Corymbia tessellaris	N NSW
+Corymbia tessellaris	Inland and E QLD to New Guinea
+Corymbia torelliana	NE QLD
+Corynocarpus rupestris subsp. arborescens	QLD
+Corynocarpus rupestris subsp. arborescens	NSW
+Cryptocarya hypospodia	NT
+Cryptocarya hypospodia	N QLD
+Cryptocarya hypospodia	SEQ
+Cryptocarya laevigata	Eastern Australia
+Cryptocarya mackinnoniana	CYP
+Cryptocarya mackinnoniana	NEQ
+Cryptocarya obovata	SE QLD
+Cryptocarya obovata	NE NSW
+Cryptocarya triplinervis	Eastern Australia
+Cupaniopsis anacardioides	E QLD
+Cupaniopsis anacardioides	E NSW
+Cupaniopsis parvifolia	E QLD
+Cupaniopsis tomentella	E QLD
+Davidsonia jerseyana	NSW
+Davidsonia johnsonii	E QLD
+Davidsonia johnsonii	E NSW
+Davidsonia pruriens	NE QLD
+Delonix regia	Madagascar
+Denhamia disperma	NEQ
+Denhamia disperma	CEQ
+Denhamia disperma	southwards to north-eastern New South Wales
+Diploglottis australis	SE QLD to S NSW
+Diploglottis campbellii	N NSW to SEQ
+Dysoxylum fraserianum	NSW
+Dysoxylum fraserianum	QLD
+Dysoxylum rufum	NE QLD - NE NSW
+Elaeocarpus angustifolius	Eastern Australia
+Elaeocarpus angustifolius	New Caledonia
+Elaeocarpus eumundi	E Australia
+Elaeocarpus obovatus	"	NE QLD - E NSW"
+Elaeocarpus reticulatus	Central E QLD to VIC
+Elaeodendron australe	E Australia
+Eucalyptus argophloia	Central Queensland
+Eucalyptus argophloia	restricted east of chinchilla
+Eucalyptus bancroftii	E Australia
+Eucalyptus camaldulensis	Inland Australia
+Eucalyptus carnea	South Eastern Australia
+Eucalyptus cloeziana	NE QLD
+Eucalyptus cloeziana	Central QLD S to Gympie
+Eucalyptus crebra	E QLD
+Eucalyptus crebra	Central E NSW
+Eucalyptus curtisii	SE QLD
+Eucalyptus deanei	QLD
+Eucalyptus deanei	NSW
+Eucalyptus longirostrata	E QLD
+Eucalyptus major	SE QLD
+Eucalyptus major	Central E NSW
+Eucalyptus melanophloia	NSW
+Eucalyptus melanophloia	QLD
+Eucalyptus melanophloia	NT
+Eucalyptus melliodora	QLD to VIC
+Eucalyptus microcorys	SE QLD to Central E NSW
+Eucalyptus moluccana	NE QLD to SE NSW
+Eucalyptus pellita	NE QLD
+Eucalyptus pellita	New Guinea
+Eucalyptus propinqua	SE QLD
+Eucalyptus propinqua	Central E NSW
+Eucalyptus raveretiana	NE QLD
+Eucalyptus resinifera	SE QLD to Central E NSW
+Eucalyptus robusta	Central QLD to SE NSW
+Eucalyptus robusta x tereticornis	E QLD to E VIC
+Eucalyptus robusta x tereticornis	New Guinea
+Eucalyptus saligna subsp. saligna	Central QLD to SE NSW
+Eucalyptus seeana	SE QLD
+Eucalyptus seeana	Central E NSW
+Eucalyptus siderophloia	SE QLD to Central E NSW
+Eucalyptus sp.	Unknown
+Eucalyptus tereticornis subsp. tereticornis	E QLD to E VIC
+Eucalyptus tereticornis subsp. tereticornis	New Guinea
+Eucalyptus thozetiana	Inland and eastern Australia
+Euroschinus falcatus var. falcatus	CYP
+Euroschinus falcatus var. falcatus	NEQ
+Euroschinus falcatus var. falcatus	CEQ to SE NSW
+Excoecaria agallocha	India to Australia
+Falcataria toona	QLD
+Ficus benjamina var. benjamina	Asia
+Ficus benjamina var. benjamina	Australia
+Ficus congesta	NT
+Ficus congesta	CYP and NEQ
+Ficus coronata	E Australia
+Ficus macrophylla	E Australia
+Ficus macrophylla	Lord Howe Island
+Ficus macrophylla forma macrophylla	S QLD to N NSW
+Ficus microcarpa	E QLD
+Ficus microcarpa	New Guinea
+Ficus microcarpa var. hilli	Central E QLD to New Guinea
+Ficus microcarpa var. hilli	New Caledonia
+Ficus microcarpa var. microcarpa	Central E QLD to Torres Strait
+Ficus nodosa	NSW coast to central QLD
+Ficus obliqua	E Australia
+Ficus obliqua	New Guinea
+Ficus obliqua	E Indonesia to Sulawesi
+Ficus obliqua	islands in the southwestern Pacific Ocean
+Ficus platypoda	Central and northern Australia
+Ficus racemosa	Australia
+Ficus racemosa	Malesia
+Ficus racemosa	Indo-China
+Ficus racemosa	the Indian subcontinent
+Ficus racemosa var. racemosa	N Australia to SE Asia
+Ficus rubiginosa	E QLD
+Ficus rubiginosa forma glabrescens	E QLD
+Ficus septica	Northeast India to North Australia
+Ficus superba var. henneana	NSW
+Ficus superba var. henneana	QLD
+Ficus superba var. henneana	NT
+Ficus virens	NT
+Ficus virens	QLD
+Ficus virens	WA
+Ficus virens	Mal
+Ficus virens	Asia
+Ficus virens var. sublanceolata	NT
+Ficus virens var. sublanceolata	QLD
+Ficus virens var. sublanceolata	WA
+Ficus virens var. sublanceolata	Mal
+Ficus virens var. sublanceolata	Asia
+Ficus virens var. virens	NT
+Ficus virens var. virens	QLD
+Ficus virens var. virens	WA
+Ficus virens var. virens	Mal
+Ficus virens var. virens	Asia
+Ficus watkinsiana	Eastern Australia
+Flindersia australis	NE QLD - NE NSW
+Flindersia bennettii	NSW to QLD
+Flindersia brayleyana	N QLD
+Flindersia collina	NE QLD to N NSW
+Flindersia schottiana	E QLD
+Flindersia schottiana	NE NSW
+Flindersia xanthoxyla	SE QLD
+Flindersia xanthoxyla	NE NSW
+Fraxinus angustifolia subsp. syriaca	W Asia
+Geijera parviflora	Central inland QLD to Central inland NSW
+Glochidion ferdinandi	Eastern Australia
+Glochidion sp.	Eastern Australia
+Glochidion sumatranum	Australia
+Glochidion sumatranum	New Guinea
+Glochidion sumatranum	Indonesia
+Gmelina fasciculiflora	NE QLD
+Gmelina leichhardtii	NE QLD - SE NSW
+Grevillea baileyana	N QLD
+Grevillea baileyana	 Papua New Guines
+Grevillea hilliana	N NSW to N QLD
+Grevillea robusta	SE QLD
+Grevillea robusta	 NE NSW
+Guioa semiglauca	Central E QLD to SE NSW
+Gyrocarpus americanus	NE QLD to SE NSW
+Harpullia hillii	E NSW
+Harpullia hillii	 QLD
+Harpullia pendula	E QLD
+Harpullia pendula	 NE NSW
+Hibiscus heterophyllus	NSW coast to central QLD
+Hymenosporum flavum	QLD
+Hymenosporum flavum	 NSW
+Jacaranda mimosifolia	South America
+Jagera pseudorhus var. pseudorhus	E QLD
+Jagera pseudorhus var. pseudorhus	 NE NSW
+Jagera pseudorhus var. pseudorhus	 New Guinea
+Lagunaria patersonii	Norfolk Island
+Lagunaria patersonii	 Lord Howe Island
+Lepiderema sp. (Impulse Creek)	CE QLD
+Libidibia ferrea	Brazil
+Libidibia ferrea	 Bolivia
+Livistona australis	NEQ
+Lophostemon confertus	E QLD
+Lophostemon confertus	 CE NSW
+Lophostemon suaveolens	E QLD
+Lophostemon suaveolens	 NE NSW
+Lophostemon suaveolens	 NG
+Lysiphyllum carronii	QLD
+Lysiphyllum hookeri	NE - CE QLD
+Lysiphyllum hookeri	 NT
+Lysiphyllum hookeri	 WA
+Macadamia integrifolia	SE QLD
+Macadamia ternifolia	SE QLD
+Macaranga tanarius	South East Asia
+Macaranga tanarius	 Thailand
+Macaranga tanarius	 Papua New Guinea
+Macaranga tanarius	 Taiwan
+Macaranga tanarius	 eastern Australia
+Mallotus claoxyloides	E Australia
+Mallotus philippensis	N Australia
+Mallotus philippensis	 E QLD to SE NSW
+Mallotus philippensis	New Guinea
+Mallotus philippensis	 SE Asia
+Mangifera indica	SE Asia
+Maytenus bilocularis	NE QLD
+Maytenus bilocularis	 Central E QLD to Central E NSW
+Melaleuca bracteata	QLD
+Melaleuca bracteata	 N NSW
+Melaleuca decora	Central QLD to SE NSW
+Melaleuca decora/ melaleuca linariifolia	Central QLD to SE NSW
+Melaleuca leucadendra	N Australia
+Melaleuca leucadendra	 SE Asia
+Melaleuca leucadendra	 New Guinea
+Melaleuca leucadendra	 Torres Strait Islands
+Melaleuca linariifolia	C QLD - SE NSW
+Melaleuca quinquenervia	N and E QLD to SE NSW
+Melaleuca salicina	NE QLD to Central E NSW
+Melaleuca saligna	CYP
+Melaleuca styphelioides	SE QLD
+Melaleuca styphelioides	 Central QLD
+Melaleuca viminalis subsp. viminalis	QLD
+Melaleuca viminalis subsp. viminalis	 NSW
+Melaleuca viridiflora	QLD
+Melaleuca viridiflora	 NSW
+Melia azedarach	QLD
+Melia azedarach	 E NSW
+Melia azedarach	 SE Asia
+Melicope elleryana	E QLD
+Melicope elleryana	 NE NSW
+Melicope rubra	CYP
+Melicope rubra	 NEQ
+Melicope rubra	 New Guinea
+Millettia pinnata	NE - CE QLD
+Millettia pinnata	 NT
+Millettia pinnata	 NG
+Millettia pinnata	 Malesia
+Millettia pinnata	Asia
+Millettia pinnata	 Pacific Is
+Nauclea orientalis	Southeast Asia
+Nauclea orientalis	 New Guinea
+Nauclea orientalis	 Australia
+Neisosperma kilneri	CEQ
+Ochrosia elliptica	CE QLD - NE QLD
+Ochrosia elliptica	 Lord Howe Island
+Ochrosia elliptica	 New Caledonia
+Olea paniculata	N QLD to Central E NSW
+Owenia venosa	SE QLD
+Owenia venosa	 Central QLD
+Pandanus brookei	NE - CE QLD
+Pararchidendron pruinosum	Australia
+Pararchidendron pruinosum	 New Guinea
+Pararchidendron pruinosum	 Indonesia
+Pentaceras australe	SEQ - NSW
+Petalostigma triloculare	Qld to NSW
+Pinus taeda	SE United States
+Pittosporum angustifolium	Inland Australia
+Pittosporum multiflorum	E Australia
+Planchonella australis	E QLD
+Planchonella australis	 E NSW
+Pleiogynium timoriense	E QLD
+Pleiogynium timoriense	 Malesia
+Podocarpus elatus	NE QLD - SE NSW
+Podocarpus elatus	 NT
+Polyscias elegans	E Australia
+Pouteria australis	NSW
+Pouteria australis	 QLD
+Pterospermum acerifolium	SE Asia
+Rhodamnia argentea	NSW to QLD
+Rhodomyrtus psidioides	E Australia
+Rhodosphaera rhodanthema	SE QLD
+Rhodosphaera rhodanthema	 NE NSW
+Spathodea campanulata subsp. nilotica	Tropical Africa
+Stenocarpus sinuatus	NE QLD to N NSW
+Sterculia quadrifida	NT
+Sterculia quadrifida	 N QLD
+Sterculia quadrifida	 E QLD
+Sterculia quadrifida	 NE NSW
+Streblus brunonianus	E QLD
+Streblus brunonianus	 E NSW
+Streblus brunonianus	 New Guinea
+Streblus brunonianus	 Pacific Islands
+Syncarpia glomulifera subsp. glomulifera	E QLD
+Syncarpia glomulifera subsp. glomulifera	 E NSW
+Syncarpia hillii	SE QLD
+Syzygium australe	NE QLD to SE NSW
+Syzygium bungadinnia	CYP
+Syzygium francisii	Central E QLD to NE NSW
+Syzygium hemilamprum	E QLD
+Syzygium luehmannii	NE
+Syzygium luehmannii	 SE QLD
+Syzygium luehmannii	 NE NSW
+Syzygium moorei	SE QLD - NE NSW
+Syzygium oleosum	E Australia
+Syzygium smithii	Eastern Australia
+Syzygium smithii	 New Zealand
+Syzygium tierneyanum	NE QLD
+Syzygium tierneyanum	 New Guinea
+Tabebuia sp.	Tropical America
+Terminalia arenicola	NE QLD
+Tipuana tipu	South America
+Toechima tenax	N NSW to N QLD
+Toona ciliata	NE QLD - S NSW
+Toona ciliata	 NG
+Toona ciliata	 Mel
+Vitex lignum-vitae	NSW to CYP
+Vitex melicopea	CYP
+Vitex melicopea	 NEQ
+Vitex melicopea	SEQ
+Waterhousea floribunda	NE QLD - NE NSW
+Xanthorrhoea glauca	E Australia
+Xanthostemon chrysanthus	NE QLD
+Xanthostemon oppositifolius	Australia
+Xanthostemon oppositifolius	 Papua New Guinea

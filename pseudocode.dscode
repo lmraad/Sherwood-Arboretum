@@ -1,0 +1,186 @@
+///////////////////////////////////////////////////////////////////////
+//This function retrieves all information about the selected species,//
+//to present to the user on the species page.                        //
+///////////////////////////////////////////////////////////////////////
+
+//The array 'species' exists, which has the scientific name of the
+//selected species.
+
+//The view 'SUMMARY' exists, which has the fields:
+//SCIENTIFIC_NAME, NAMES, LOCATIONS
+//With species' scientific names, common names, and distributions.
+
+FUNCTION SPECIESINFO(species)
+BEGIN
+    
+//Assignment is demonstrated below, as variables are created which
+//contain the information which will be presented to the user about
+//the selected species. The SQL queries used to 'SELECT' this data
+//use 'COUNT', 'MIN', 'MAX', 'AVG' and 'ROUND' functions as well as
+//a table JOIN.
+
+DECLARE generalInfo =
+    SQL RESULT FROM
+        "SELECT SPECIES.SCIENTIFIC_NAME, SUMMARY.NAMES, SPECIES.FAMILY, SPECIES.AUSTRALIAN
+        FROM SPECIES
+        JOIN SUMMARY ON SUMMARY.SCIENTIFIC_NAME = SPECIES.SCIENTIFIC_NAME
+        WHERE SPECIES.SCIENTIFIC_NAME = ?"
+    WITH PREPARED QUERY VALUE species
+
+DECLARE count =
+    SQL RESULT FROM
+        "SELECT COUNT(*)
+        FROM SPECIMENS
+        WHERE SCIENTIFIC_NAME = ?"
+    WITH PREPARED QUERY VALUE species
+
+DECLARE measurements =
+    SQL RESULT FROM
+        "SELECT MIN(HEIGHT), ROUND(AVG(HEIGHT), 1), MAX(HEIGHT),
+        MIN(CROWN_WIDTH), ROUND(AVG(CROWN_WIDTH), 1), MAX(CROWN_WIDTH),
+        MIN(DBH), ROUND(AVG(DBH), 0), MAX(DBH)
+        FROM SPECIMENS
+        WHERE SCIENTIFIC_NAME = ?"
+    WITH PREPARED QUERY VALUE species
+
+DECLARE distributions =
+    SQL RESULT FROM
+        "SELECT LOCATIONS
+        FROM SUMMARY
+        WHERE SCIENTIFIC_NAME = ?"
+    WITH PREPARED QUERY VALUE species
+
+DECLARE habitat =
+    SQL RESULT FROM
+        "SELECT HABITAT
+        FROM SPECIES
+        WHERE SCIENTIFIC_NAME = ?"
+    WITH PREPARED QUERY VALUE species
+
+DECLARE vulnerabilities =
+    SQL RESULT FROM
+        "SElECT CONSERVATION_ACT_1992, EPBC_ACT_1999
+        FROM SPECIES
+        WHERE SCIENTIFIC_NAME = ?"
+    WITH PREPARED QUERY VALUE species
+
+DECLARE description =
+    SQL RESULT FROM
+        "SELECT SPECIES_PROFILE
+        FROM SPECIES
+        WHERE SCIENTIFIC_NAME = ?"
+    WITH PREPARED QUERY VALUE species
+
+RETURN RENDER response "speciesInfo.hbs", {generalInfo, count, measurements, distributions, habitat, vulnerabilities, description}
+
+END
+
+///////////////////////////////////////////////////////////////////////
+//This function retrieves all information comparing the selected     //
+//species, to present to the user on the species comparison page.    //
+///////////////////////////////////////////////////////////////////////
+
+//The variables 'species1' and 'species2' exist, which have the
+//selected species' scientific names.
+
+//The empty variables 'tallest', 'widest', 'largestDBH', and
+//'mostCount' also exist.
+
+FUNCTION SPECIESCOMPARISON(species1, species2, tallest, widest, largestDBH, mostCount)
+BEGIN
+
+//Assignment is demonstrated below, as variables are created to hold
+//the information which will be presented to the user comparing the
+//selected species. The SQL queries use 'COUNT' and 'AVG' functions.
+
+DECLARE species1Measurements =
+    SQL RESULT FROM
+        "SELECT AVG(HEIGHT) AS HEIGHT, AVG(CROWN_WIDTH) AS WIDTH, AVG(DBH) AS DBH, COUNT(*) AS COUNT
+        FROM SPECIMENS
+        WHERE SCIENTIFIC_NAME = ?"
+    WITH PREPARED QUERY VALUE species1
+
+DECLARE species2Measurements =
+    SQL RESULT FROM
+        "SELECT AVG(HEIGHT) AS HEIGHT, AVG(CROWN_WIDTH) AS WIDTH, AVG(DBH) AS DBH, COUNT(*) AS COUNT
+        FROM SPECIMENS
+        WHERE SCIENTIFIC_NAME = ?"
+    WITH PREPARED QUERY VALUE species2
+
+//Selection is demonstrated below as multiple possible pathways are
+//presented for the program to follow, depending on the species with
+//the greatest height, crown width, DBH, and count.
+
+DECLARE heightDifference = Math.abs(species1Measurements[0].HEIGHT - species2Measurements[0].HEIGHT)
+heightDifference = Math.round(heightDifference * 100) / 100
+IF heightDifference === 0 THEN
+    tallest = "Both equal heights"
+ELSE IF species1Measurements[0].HEIGHT > species2Measurements[0].HEIGHT THEN
+    tallest = species1
+ELSE
+    tallest = species2
+ENDIF
+
+DECLARE widthDifference = Math.abs(species1Measurements[0].WIDTH - species2Measurements[0].WIDTH)
+widthDifference = Math.round(widthDifference * 100) / 100
+IF widthDifference === 0 THEN
+    widest = "Both equal crown widths"
+ELSE IF species1Measurements[0].WIDTH > species2Measurements[0].WIDTH THEN
+    widest = species1
+ELSE
+    widest = species2
+ENDIF
+
+DECLARE DBHDifference = Math.abs(species1Measurements[0].DBH - species2Measurements[0].DBH)
+DBHDifference = Math.round(DBHDifference * 100) / 100
+IF DBHDifference === 0 THEN
+    largestDBH = "Both equal diameters at breast height"
+ELSE IF species1Measurements[0].DBH > species2Measurements[0].DBH THEN
+    largestDBH = species1
+ELSE
+    largestDBH = species2
+ENDIF
+
+DECLARE countDifference = Math.abs(species1Measurements[0].COUNT - species2Measurements[0].COUNT)
+countDifference = Math.round(countDifference * 100) / 100
+IF countDifference === 0 THEN
+    mostCount = "Both equal numbers"
+ELSE IF species1Measurements[0].COUNT > species2Measurements[0].COUNT THEN
+    mostCount = species1
+ELSE
+    mostCount = species2
+ENDIF
+
+DECLARE species1Facts =
+    SQL RESULT FROM
+        "SELECT FAMILY, AUSTRALIAN, HABITAT, CONSERVATION_ACT_1992, EPBC_ACT_1999
+        FROM SPECIES
+        WHERE SCIENTIFIC_NAME = ?"
+    WITH PREPARED QUERY VALUE species1
+
+DECLARE species2Facts =
+    SQL RESULT FROM
+        "SELECT FAMILY, AUSTRALIAN, HABITAT, CONSERVATION_ACT_1992, EPBC_ACT_1999
+        FROM SPECIES
+        WHERE SCIENTIFIC_NAME = ?"
+    WITH PREPARED QUERY VALUE species2
+
+DECLARE similarities = []
+
+//Below is an example of condition as 'if' statements are used
+//to push the similarities between the two species being compared
+//into the array 'similarities'.
+
+IF species1Facts.FAMILY = species2Facts.FAMILY THEN
+    PUSH species1Facts[0] into similarities
+ENDIF
+IF species1Facts.AUSTRALIAN = species2Facts.AUSTRALIAN THEN
+    PUSH species1Facts[1] into similarities
+ENDIF
+IF species1Facts.HABITAT = species2Facts.HABITAT THEN
+    PUSH species1Facts[2] into similarities
+ENDIF
+
+RETURN RENDER reponse "speciesComparison.hbs", {tallest, heightDifference, widest, widthDifference, largestDBH, DBHDifference, mostCount, countDifference, similarities}
+
+END
